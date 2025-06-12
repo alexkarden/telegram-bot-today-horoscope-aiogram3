@@ -1,0 +1,6 @@
+services:
+  bot:
+    container_name: telegrambot_horoskop_v1
+    build: .
+    command: python run.py
+    restart: always
